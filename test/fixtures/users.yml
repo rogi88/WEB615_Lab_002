@@ -5,7 +5,7 @@ one:
   presence: 
   last_name: MyString
   presence: 
-  emial: MyString
+  email: MyString
   presence: 
   street_address: MyString
   city: MyString
@@ -18,7 +18,7 @@ two:
   presence: 
   last_name: MyString
   presence: 
-  emial: MyString
+  email: MyString
   presence: 
   street_address: MyString
   city: MyString

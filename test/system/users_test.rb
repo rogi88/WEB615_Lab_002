@@ -16,7 +16,7 @@ class UsersTest < ApplicationSystemTestCase
 
     fill_in "City", with: @user.city
     fill_in "Country", with: @user.country
-    fill_in "Emial", with: @user.emial
+    fill_in "Email", with: @user.email
     fill_in "First name", with: @user.first_name
     fill_in "Last name", with: @user.last_name
     fill_in "Postal code", with: @user.postal_code
@@ -35,7 +35,7 @@ class UsersTest < ApplicationSystemTestCase
 
     fill_in "City", with: @user.city
     fill_in "Country", with: @user.country
-    fill_in "Emial", with: @user.emial
+    fill_in "Email", with: @user.email
     fill_in "First name", with: @user.first_name
     fill_in "Last name", with: @user.last_name
     fill_in "Postal code", with: @user.postal_code
