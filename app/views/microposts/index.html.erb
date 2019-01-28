@@ -16,7 +16,7 @@
     <% @microposts.each do |micropost| %>
       <tr>
         <td><%= micropost.message %></td>
-        <td><%= micropost.presence %></td>
+
         <td><%= micropost.user %></td>
         <td><%= link_to 'Show', micropost %></td>
         <td><%= link_to 'Edit', edit_micropost_path(micropost) %></td>
