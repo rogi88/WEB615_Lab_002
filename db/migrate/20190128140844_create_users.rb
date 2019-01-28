@@ -2,11 +2,11 @@ class CreateUsers < ActiveRecord::Migration[5.2]
   def change
     create_table :users do |t|
       t.string :first_name
-      t.true :presence
+
       t.string :last_name
-      t.true :presence
+
       t.string :emial
-      t.true :presence
+     
       t.string :street_address
       t.string :city
       t.string :province
